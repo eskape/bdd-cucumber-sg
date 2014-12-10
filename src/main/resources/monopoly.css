@@ -1,0 +1,95 @@
+
+h1 em {
+	color: gray;
+}
+
+#players {
+    left: 200px;
+    position: absolute;
+    top: 200px;
+}
+
+.square {
+	position: absolute;
+	background-color: #CFECE8;
+    border: solid gray 1px;
+    font-family: sans-serif;
+    overflow: hidden;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.square span {
+	display: block;
+	padding-top: .6em;
+}
+
+.square .cost {
+	display: none;
+	font-size: 60%;
+    margin: 2px;
+    text-align: left;
+    overflow: visible;
+    padding-top: 0;
+    text-align: left;
+    width: 0;
+}
+
+.DrawCard {
+	background-color: #CFEC78;
+}
+
+.Realty {
+	
+}
+
+.Start {
+	background-color: #BFFFD8;
+}
+
+.Jail {
+	
+}
+
+.Utility {
+	background-color: #CFEC78;
+}
+
+.FreeParking {
+	
+}
+
+.Station {
+	
+}
+
+.PoliceAgent {
+	
+}
+
+.TaxSquare {
+	background-color: #CFEC78;
+}
+
+.player {
+	float: left;
+ 	height: 20px;
+    margin: 3px;
+    width: 20px;
+}
+
+.player.active {
+	border: 2px solid white;
+    margin: 1px;
+}
+
+#players .active {
+	text-decoration: underline;
+}
+
+/*
+.top span, .bottom span {
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+}
+*/
